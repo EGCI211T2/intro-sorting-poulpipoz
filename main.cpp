@@ -28,7 +28,8 @@ int main(int argc, char * argv[]) {
     cout<<"Before sorting:";
     display(a,N);
     
-    sort(a,N);
+    selectionSort(a, N);
+    insertionSort(a,N, 5);
     cout<<"After sorting:";
     display(a,N);
     
